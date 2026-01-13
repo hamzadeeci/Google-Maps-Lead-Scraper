@@ -26,13 +26,17 @@ It doesn't just scrape links; it visits every business profile, extracts the pho
    git clone https://github.com/hamzadeeci/Google-Maps-Lead-Scraper.git
 * Install requirements:
  ```pip install -r requirements.txt```
+
 ##🔄 Workflow (How to run)
+
 Step 1: Collect Links (The Harvester) Run the first script to gather business links:
  ```python bot_maps_final.py```
   Follow the on-screen instructions to search and scroll.
+  
 Step 2: Extract Phones (The Hunter) Run the second script to visit links and grab phone numbers:
  ```python bot_phones.py```
   The bot will open each link, extract the phone number, clean it, and save it automatically.
+  
 ##📊 Output Example
 The tool generates google_maps_leads.xlsx:
 
